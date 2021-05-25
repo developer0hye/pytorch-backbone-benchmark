@@ -33,7 +33,6 @@ with open("bench.txt", "w") as f:
         try:
             model = timm.create_model(model_name, pretrained=False).cuda()
             model.eval()
-            print(model_name, " ", benchmark(model))
             f.write(model_name+" "+str(benchmark(model))+"\n")
         except:
             continue
