@@ -12,6 +12,8 @@ All timing experiments are averaged over 100 times.
 
 sorted by execution time
 
+The graph is [here](https://colab.research.google.com/drive/1NmkUIcA9Vt8U2WLXgZeIrIuY3yFW3Byx#scrollTo=4eXxfjPrg_PB).
+
 |     | model                            |   top1 |   param_count |   execution time(sec) |   fps |
 |----:|:---------------------------------|-------:|--------------:|----------------------:|------:|
 |   0 | swsl_resnet18                    | 73.276 |         11.69 |                0.0044 |   227 |
