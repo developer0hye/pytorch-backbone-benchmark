@@ -14,6 +14,9 @@ sorted by execution time
 
 The graph is [here](https://colab.research.google.com/drive/1NmkUIcA9Vt8U2WLXgZeIrIuY3yFW3Byx#scrollTo=4eXxfjPrg_PB).
 
+![image](https://user-images.githubusercontent.com/35001605/119701684-9c7d7300-be8f-11eb-8715-fac42235c708.png)
+
+
 |     | model                            |   top1 |   param_count |   execution time(sec) |   fps |
 |----:|:---------------------------------|-------:|--------------:|----------------------:|------:|
 |   0 | swsl_resnet18                    | 73.276 |         11.69 |                0.0044 |   227 |
