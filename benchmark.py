@@ -13,7 +13,7 @@ def benchmark(model, batch_size=1, input_size=[608, 608], times=100):
             
         avg_time = 0
         for i in range(0, times):
-            input = torch.rand(1,3,input_size[0],input_size[1]).cuda()
+            input = torch.rand(batch_size,3,input_size[0],input_size[1]).cuda()
             torch.cuda.synchronize()
             t1 = time.time()
             model(input)
